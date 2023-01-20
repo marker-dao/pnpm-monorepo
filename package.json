@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "pnpm --parallel dev",
     "build": "pnpm build:ui",
-    "build:ui": "pnpm --filter \"@pnpm-monorepo/ui\" -r build"
+    "build:ui": "pnpm --filter \"@pnpm-monorepo/ui\" -r build",
+    "story": "pnpm -r storybook"
   }
 }
