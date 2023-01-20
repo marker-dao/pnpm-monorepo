@@ -1,0 +1,10 @@
+{
+  "name": "@pnpm-monorepo/repo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel dev",
+    "build": "pnpm build:ui",
+    "build:ui": "pnpm --filter \"@pnpm-monorepo/ui\" -r build"
+  }
+}
