@@ -2,7 +2,7 @@
 Project for testing pnpm workspaces for monorepo.
 
 ## Stack
-TS 4
+TS 4  
 Next.js 13  
 React 18  
 Vite 4  
