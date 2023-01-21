@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+const webpack = require('webpack')
 
 module.exports = {
   stories: [
@@ -18,6 +18,6 @@ module.exports = {
       })
     );
 
-    return config;
+    return config
   },
 }
