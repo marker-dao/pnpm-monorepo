@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "pnpm --parallel dev",
-    "build": "pnpm build:ui",
+    "build": "pnpm build:ui && pnpm build:utils",
     "build:ui": "pnpm --filter \"@pnpm-monorepo/ui\" -r build",
+    "build:utils": "pnpm --filter \"@pnpm-monorepo/utils\" -r build",
     "story": "pnpm -r storybook"
   }
 }

@@ -42,7 +42,7 @@ importers:
       youch: 3.2.2
       youch-terminal: 2.1.5
 
-  apps/front:
+  apps/front-with-next-js:
     specifiers:
       '@next/font': 13.1.3
       '@pnpm-monorepo/ui': workspace:^0.0.1
