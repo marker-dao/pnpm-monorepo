@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "pnpm --parallel dev",
+    "dev:all": "pnpm --parallel dev",
+    "vite": "pnpm --filter \"@pnpm-monorepo/front-with-vite\" dev",
     "build": "pnpm build:ui && pnpm build:utils",
     "build:ui": "pnpm --filter \"@pnpm-monorepo/ui\" -r build",
     "build:utils": "pnpm --filter \"@pnpm-monorepo/utils\" -r build",

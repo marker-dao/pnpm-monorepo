@@ -2,6 +2,10 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import { setupCounter } from './counter'
 
+import { capitalize } from '@pnpm-monorepo/utils'
+
+console.log(capitalize('you know jeembo'))
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">

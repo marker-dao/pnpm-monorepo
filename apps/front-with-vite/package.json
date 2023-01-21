@@ -1,5 +1,5 @@
 {
-  "name": "front-with-vite",
+  "name": "@pnpm-monorepo/front-with-vite",
   "private": true,
   "version": "0.0.1",
   "author": "marker dao",
