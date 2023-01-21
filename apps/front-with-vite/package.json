@@ -1,12 +1,16 @@
 {
   "name": "front-with-vite",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "author": "marker dao",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
+  },
+  "dependencies": {
+    "@pnpm-monorepo/utils": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^4.9.3",

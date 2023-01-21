@@ -62,8 +62,11 @@ importers:
 
   apps/front-with-vite:
     specifiers:
+      '@pnpm-monorepo/utils': workspace:*
       typescript: ^4.9.3
       vite: ^4.0.0
+    dependencies:
+      '@pnpm-monorepo/utils': link:../../tools/utils
     devDependencies:
       typescript: 4.9.4
       vite: 4.0.4
