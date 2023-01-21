@@ -1,0 +1,4 @@
+.article-content p,
+.article-content img {
+  width: 100% !important;
+}

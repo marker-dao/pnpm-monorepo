@@ -1,3 +1,3 @@
-export function Button () {
-  return <button>follow me...</button>
+export function Button ({ children }) {
+  return <button>{ children }</button>
 }
