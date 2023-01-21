@@ -9,3 +9,6 @@ Vite 4
 Storybook 6  
 Adonis.js 5  
 ESBuild 0.17
+
+## JFYI
+https://bradfrost.com/blog/post/atomic-web-design/
